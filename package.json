@@ -1,0 +1,23 @@
+{
+  "name": "eslint-plugin-restict-only-in-tests",
+  "version": "0.0.1",
+  "description": "Doesn't allow to write .only() in tests",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Denis Maximov",
+  "main": "lib/index.js",
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0",
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
